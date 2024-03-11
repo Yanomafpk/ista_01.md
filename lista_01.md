@@ -23,7 +23,7 @@ print(a)
 
 Escolha a opção que responde corretamente:
 
-a) Imprime os números pares de 1 a 10. Certa
+Xa) Imprime os números pares de 1 a 10. Certa
 
 b) Imprime os números ímpares de 1 a 10.
 
@@ -39,7 +39,7 @@ ______
 
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
-A) let carro = new Carro("Toyota"); Certa
+XA) let carro = new Carro("Toyota"); Certa
 
 B) let ligar = new ligar("Toyota");
 
@@ -55,7 +55,7 @@ ______
 
 Escolha a opção que responde corretamente:
 
-A) 18 Certa
+XA) 18 Certa
 
 B) 16
 
@@ -67,7 +67,7 @@ ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-A) ![Uma imagem](assets/ex04_1.PNG) Certa
+XA) ![Uma imagem](assets/ex04_1.PNG) Certa
 
 B) ![Uma imagem](assets/ex04_2.PNG)
 
@@ -79,14 +79,14 @@ ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-A) ![Uma imagem](assets/ex05_1.PNG) Certa
+XA) ![Uma imagem](assets/ex05_1.PNG) Certa
 
 B) ![Uma imagem](assets/ex05_2.PNG)
 
 C) ![Uma imagem](assets/ex05_3.PNG)
 
 D) ![Uma imagem](assets/ex05_4.PNG)
-Letra A certa
+
 ______
 
 
@@ -96,7 +96,7 @@ ______
 
 Qual será a saída do código acima?
 
-A) "Olá, meu nome é João. Olá, meu nome é Maria." Certa
+XA) "Olá, meu nome é João. Olá, meu nome é Maria." Certa
 
 B) "Olá, meu nome é ."
 
@@ -122,6 +122,7 @@ Criando e manipulando Animais:
 Dica: Utilize `console.log()` para exibir as informações!
 
 Código utilizado:
+```javascript
 // definindo a classe Animal
 class Animal {
     // construtor da classe Animal que recebe nome e idade do animal
@@ -144,6 +145,7 @@ let cachorro = new Animal("scooby", 10);
 console.log(gato.descrever());
 // Imprimindo a descrição do cachorro
 console.log(cachorro.descrever());
+```
 
 ______
 
@@ -171,6 +173,7 @@ Chamando os Métodos:
 Dica: Utilize console.log() para exibir as informações!
 
 Código utilizado:
+```javascript
 // definindo a classe Animal
 class Animal {
     constructor(nome, idade) {
@@ -213,6 +216,7 @@ console.log(cachorro.descrever());
 console.log(gato.descrever());
 // imprimindo a função
 console.log(gato.miar());
+```
 
 
 
@@ -238,6 +242,7 @@ Chamando o Método para Ver o Total:
 Dica: Utilize console.log() para exibir as informações!
 
 Código utilizado: 
+```javascript
 class SomadorDeNotas {//classe
     constructor(total) {//atributos
         this.total = total; 
@@ -257,6 +262,7 @@ class SomadorDeNotas {//classe
 let somador = new SomadorDeNotas(0); // cria uma nova instância da classe SomadorDeNotas com total inicial zero
 somador.adicionarNota([10, 11, 12]); // adiciona as notas 10, 11 e 12 ao total
 console.log(somador.verTotal()); // imprime o total no console
+```
 
 
 
@@ -283,6 +289,7 @@ Agora, sua tarefa é escrever um código em JavaScript que crie as classes Funci
 Certifique-se de explicar cada parte do código utilizando comentários, explicando para que serve cada atributo e método, bem como a lógica por trás do cálculo de salário para o tipo de funcionário Professor.
 
 Código utilizado: 
+```javascript
 class Funcionario{// classe dos funcionarios 
     constructor(nome,idade, salario_base){//atributos definidos
         this.nome=nome
@@ -309,3 +316,4 @@ let professor2 = new Professor( "Léo", 32, 50, "fisica", 25 )
 //imprime a função calcularsalario
 console.log(professor1.calcularSalario())
 console.log(professor2.calcularSalario())
+```
